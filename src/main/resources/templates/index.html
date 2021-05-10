@@ -105,7 +105,8 @@
         <h1>Lista de Usuarios</h1>
         <p th:text="${mensaje}"></p>
         
-    	<p><button class="b-anadir" th:href="@{/add}">Añadir Usuario</button></p>
+    	<!-- <p><button class="b-anadir" th:href="@{/add}">Añadir Usuario</button></p> -->
+		<p><a class="btn btn-success"th:href="@Url.Action("formUser")">Añadir Usuario</button></p>
     	
         <table th:if="${usuarios!=null and !usuarios.empty}">
         	<tr>
