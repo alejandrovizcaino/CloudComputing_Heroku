@@ -2,7 +2,85 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
     <head>
-        <title>Usuarios</title>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>User Management - Add User</title>
+
+    <!-- Bootstrap CSS -->
+    
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
+	<style>
+        body {
+            padding: 0;
+            margin: 0;
+            background: #f2f6e9;
+            text-align: center;
+        }
+        .navbar {
+            background: #6ab446;
+        }
+        .nav-link, .navbar-brand {
+            color: #fff;
+            cursor: pointer;
+        }
+        .nav-link {
+            margin-right: 1em !important;
+        }
+        .nav-link:hover {
+            color: #000;
+        }
+        .navbar-collapse {
+            justify-content: flex-end;
+        }
+        
+        /*--- header ---*/
+
+        .header {
+        	background-color: #fefbd8;
+        	background-size: cover;
+        	background-position: center;
+        	position: relative;
+        }
+        
+        .b-anadir {
+            
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+     
+        table {
+          font-family: Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+    
+        table td, table th {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+    
+        table tr:nth-child(even){background-color: #f2f2f2;}
+    
+        table tr:hover {background-color: #ddd;}
+    
+        table th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: center;
+          background-color: #4CAF50;
+          color: white;
+        }
+	</style>
+	
     </head>
     
     <body>
